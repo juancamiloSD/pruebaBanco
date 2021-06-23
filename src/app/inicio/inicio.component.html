@@ -1,0 +1,97 @@
+<section id="inicio" class="pt-4 pb-2 vh-custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="d-none d-lg-block d-xl-block d-xxl-block">
+                    <i class="fa fa-arrow-left text-blue fs-3" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-12 text-center">
+                <h1 class="fw-bold font-35px">{{ data.body.nombre }}</h1>
+                <span class="text-gray fs-4 d-block mb-2">NIT: {{ data.body.nit }}</span>
+                <div class="d-flex justify-content-center">
+                    <span class="pe-1 fw-bold">Capa:</span><span>{{ data.body.capa }}</span>
+                    <span class="px-3">
+                        <i class="fa fa-circle text-blue fs-6px" aria-hidden="true"></i>
+                    </span>
+                    <span class="pe-1 fw-bold">Segmento:</span><span>{{ data.body.segmento }}</span>
+                </div>
+            </div>
+            <div class="m-auto col-8 pt-2">
+                <nav class="lines d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                    <div class="nav nav-tabs nav-pills nav-justified" id="nav-tab" role="tablist">
+                    <button class="nav-link font-12active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Operación</button>
+                    <button class="nav-link font-12" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Indicadores</button>
+                    <button class="nav-link font-12" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Información Cliente</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <p class="text-blue fw-500 mt-2 paddingCustom-t35">Indique la línea de crédito que quiere reconsiderar</p>
+                        <div class="row pt-2 pb-3 paddingCustom-xy35">
+                            <div class="col-6 col-sm-4 col-md-5 offset-md-1 col-lg-4 offset-lg-2 col-xl-4 offset-xl-2 col-xxl-4 offset-xxl-2">
+                                <a href="#">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                        <img src="assets/images/cartera.png" class="img-fluid" alt="">   
+                                        <h5 class="card-title font-12">Cartera ordinaria</h5>
+                                        </div>
+                                        <div class="card-footer text-muted pt-2 pb-2">
+                                        <a href="#" class="text-blue fw-500">
+                                            Continuar
+                                        </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+                                <a href="#">
+                                    <div class="card text-center disabled">
+                                        <div class="card-body">
+                                        <img src="assets/images/leasing.png" class="img-fluid" alt="">   
+                                        <h5 class="card-title font-12">Leasing</h5>
+                                        </div>
+                                        <div class="card-footer text-muted pt-2 pb-2">
+                                        <a href="#" class="text-blue fw-500">
+                                            Continuar
+                                        </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row pt-4 pb-3">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="card text-dark bg-light mb-3">
+                                    <div class="card-header"><i class="fa fa-wrench" aria-hidden="true"></i> Indicadores</div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">En construcción</h5>
+                                    <p class="card-text">Pronto estara disponible</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row pt-4 pb-3">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="card text-dark bg-light mb-3">
+                                    <div class="card-header"><i class="fa fa-wrench" aria-hidden="true"></i> Información Cliente</div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">En construcción</h5>
+                                    <p class="card-text">Pronto estara disponible</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-warning fw-500 d-flex align-items-center py-1 px-1 fs-10px" role="alert">
+                    <i class="fa fa-exclamation-circle fs-3" aria-hidden="true"></i> <hr class="ms-2 me-3">Las demás líneas de crédito no estarán disponible por el momento
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
